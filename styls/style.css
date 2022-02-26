@@ -1,0 +1,98 @@
+.parent {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+}
+
+.top {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+}
+
+.bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.top .left {
+    height: 100%;
+    width: 40%;
+    background-color: rgba(59, 118, 173, 0.801);
+}
+
+.top .mid {
+    height: 100%;
+    width: 30%;
+}
+
+.top .right {
+    height: 100%;
+    width: 30%;
+}
+
+.top .mid .top {
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.top .mid .bottom {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(16, 107, 95);
+}
+
+.top .right .top {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(153, 190, 160);
+}
+
+.top .right .bottom {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(182, 19, 128, 0.74);
+}
+
+.bottom .left {
+    height: 100%;
+    width: 30%;
+}
+
+.bottom .mid {
+    height: 100%;
+    width: 30%;
+}
+
+.bottom .right {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(236, 65, 13);
+}
+
+.bottom .left .top {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+.bottom .left .bottom {
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.bottom .mid .top {
+    height: 50%;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+.bottom .mid .bottom {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(172, 143, 189, 0.452);
+}
